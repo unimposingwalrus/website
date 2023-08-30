@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document for Unimposing Walrus website */
+/* containers */
+.topbar {background-color: #3b394d;
+		 padding-top: 50px;
+		 padding-bottom: 5px;}
+.mid {background-color: #fff;}
+.navbar ul {
+  font-family: myriad-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  color: #fff;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+.navbar li {
+	float: left;
+	display: block;
+}
+.navbar a {
+	color: #fff;
+	text-decoration: none;
+}
+a.navbar:hover {
+	color: #e3af91;
+	text-decoration: none;
+}
+.logo {margin-top: 18px;}
+footer {
+      background-color: #3b394d;
+      padding: 15px;
+    }
+.social {
+  margin-left: 40%;
+  margin-right: 40%;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* typography */
+.title {font-family: 'Fredoka', sans-serif;
+		font-size: 2.6em;
+		color: #e37130;
+		text-decoration: none;
+}
+a.title:hover {
+		color: #e3af91;
+		text-decoration: none;
+}
+h1 {font-family: myriad-pro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 24px;
+	color: #3b394d;
+}
+h2 {
+	font-family: myriad-pro-semi-condensed, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 22px;
+	color: #3b394d;
+}
+p {
+	font-family: myriad-pro-semi-condensed, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 20px;
+	color: #3b394d;
+}
+quote {
+	font-family: myriad-pro, sans-serif;
+	font-weight: 600;
+	font-size: 24px;
+	font-style: italic;
+}
+.quoteend {
+	padding-bottom: 14px;
+}
+.features {
+	font-family: myriad-pro-semi-condensed, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 16px;
+	color: #3b394d;
+}
+.screenshot {
+	padding-bottom: 14px;
+}
+.legal{
+	font-family: myriad-pro-semi-condensed, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 16px;
+	color: #fff;
+}
+
+/* Adobe Fonts
+
+Semibold 
+font-family: myriad-pro, sans-serif;
+font-weight: 600;
+font-style: normal;
+
+
+Light SemiCondensed
+font-family: myriad-pro-semi-condensed, sans-serif;
+font-weight: 300;
+font-style: normal;
+
+Light SemiCondensed Italic
+font-family: myriad-pro-semi-condensed, sans-serif;
+font-weight: 300;
+font-style: italic;
+
+Semibold SemiCondensed
+font-family: myriad-pro-semi-condensed, sans-serif;
+font-weight: 600;
+font-style: normal;
+
+Semibold Italic
+font-family: myriad-pro, sans-serif;
+font-weight: 600;
+font-style: italic;
+
+Bold
+font-family: myriad-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+*/
